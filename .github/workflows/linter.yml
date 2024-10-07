@@ -9,9 +9,9 @@ on:
       - main
 
 permissions:
-  contents: read
-  packages: read
-  statuses: write
+  contents: write all
+  packages: write all
+  statuses: write all
 
 jobs:
   lint:
